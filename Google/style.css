@@ -134,8 +134,7 @@ footer a{
 footer a:hover{
 	text-decoration: underline;
 }
-.last{
-	
+.last{	
 	padding: 2.5px 20px;
 	border: .5px solid #dadce0;
 	display: flex;
