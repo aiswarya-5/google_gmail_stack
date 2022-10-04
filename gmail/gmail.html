@@ -9,54 +9,54 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="header">
-				<div class="left">
+			<div class="header display_flex align-items_center">
+				<div class="left display_flex  align-items_center">
 					<span class="material-icons">menu</span>
 					<img src="images/gmaillogo.png" alt="image">
 				</div>
-				<div class="middle">
+				<div class="middle display_flex align-items_center">
 					<span id="search" class="material-icons">search</span>
 					<input type="text" placeholder="Search mail" name="search">
-					<span id="tune" class="material-icons">tune</span>				
+					<span id="tune" class="material-icons">tune</span>			
 				</div>
-				<div class="right">
+				<div class="right display_flex">
 					<span class="material-icons">help_outline</span>
 					<img src="images/settings.jpg" class="settings" alt="image">
-					<img src="images/apps.png" class="apps" alt="image">
-					<img src="images/sign.jpg" class="sign" alt="image">
+					<img src="images/apps.png" class="apps cursor_pointer" alt="image">
+					<img src="images/sign.jpg" class="sign cursor_pointer" alt="image">
 				</div>
 			</div> <!--header-->
-			<div class="mainbodycontainer">
+			<div class="mainbodycontainer display_flex">
 				<div class="sidebar">
-					<button class="compose-button">
+					<button class="compose-button display_flex align-items_center cursor_pointer">
 						<img class="plus-icon" src="images/plus-icon.png" alt="">
 						<span>Compose</span>
 					</button>
 					<div class="sidebox1">
-        					<ul class="list">
+        					<ul class="list liststyle_type">
           						<li class="redish">
           							<span class="material-icons"> inbox </span>
-								<a href="#">Inbox</a>
+								<a href="#" class="sidebox12">Inbox</a>
           						</li>
 							<li>
 	          						<span class="material-icons"> star </span>
-								<a href="#">Starred</a>
+								<a href="#" class="sidebox12">Starred</a>
           						</li>
 							<li>
           							<span class="material-icons"> access_time_filled </span>
-								<a href="#">Snoozed</a>
+								<a href="#" class="sidebox12">Snoozed</a>
           						</li>
 							<li>
         	  						<span class="material-icons"> send</span>
-								<a href="#">Sent</a>
+								<a href="#" class="sidebox12">Sent</a>
           						</li>
 							<li>
           							<span class="material-icons"> note</span>
-								<a href="#"><b>Drafts</b></a>
+								<a href="#" class="sidebox12"><b>Drafts</b></a>
 	          					</li>
 							<li>
           							<span class="material-icons"> expand_more</span>
-								<a href="#">More</a>
+								<a href="#" class="sidebox12">More</a>
           						</li>
           					</ul>
       					</div>	
@@ -64,15 +64,15 @@
         					<ul class="list">
           						<li>
           							<span class="material-icons"> videocam </span>
-								<a href="#">New meeting</a>
+								<a href="#" class="sidebox12">New meeting</a>
           						</li>
 							<li id="keyboard">
 	          						<span class="material-icons">  keyboard</span>
-								<a href="#">Join a meeting</a>
+								<a href="#" class="sidebox12">Join a meeting</a>
           						</li>
 						</ul>								
 					</div>
-					<div class="sidebox3">
+					<div class="sidebox3 cursor_pointer">
 						<p>Hangouts </p>
 						<img src="images/sign_sidebar.png" class="optionsign" alt="image">
 						<span class="name">Aiswarya </span>
@@ -83,16 +83,15 @@
 						<div class="chat1">No recent chats</div>
 						<a class="chat2" href="#">Start a new one</a>		
 					</div>						
-					<div class="sidebox5">
+					<div class="sidebox5 cursor_pointer">
 						<img src="images/people.png" class="people" alt="image">
 						<img src="images/hangout.png" class="hangout" alt="image">		
 					</div>
-					<div class="clear"></div>
 				</div> <!--sidebar-->
 
 				<div class="main_body">
-					<div class="layer1">
-						<div class="check">
+					<div class="layer1 display_flex"> 
+						<div class="check"> 
 							<span class="material-icons">check_box_outline_blank</span>
 						</div>
 						<div class="arrow1">
@@ -103,35 +102,36 @@
 						</div>
 						<div class="more">
 							<span class="material-icons">more_vert</span>
-						</div>
+						</div> 
 						<div class="keys">	
-							<div class="keyss">
+							<div class="keyss display_flex">
 								<h5 class="no"> 1 to 50 of 1250</h5>							
 								<span id="key1" class="material-icons">keyboard_arrow_left</span>
 								<span id="key2" class="material-icons">keyboard_arrow_right</span>					
 								<span class="material-icons">keyboard</span>
 								<span id="arrow2" class="material-icons">arrow_drop_down</span>							
-							</div>				
+							</div>	
+							<div class="clear"></div>			
 						</div>						
         	  			</div>	                                                                         
 					<!-- layer1 -->
 					<div class="flow">	
-	          				<div class="layer2">
-							<button class="primary">
+	          				<div class="layer2 display_flex">
+							<button class="primary display_flex cursor_pointer align-items_center">
 								<span class="material-icons">inbox</span>
 								<span class="type"> Primary </span>
 							</button>
-							<button class="promo">
-								<span class="material-icons">local_offer</span>
+							<button class="promo display_flex cursor_pointer align-items_center">
+								<span class="material-icons opacity_6 ">local_offer</span>
 								<span class="type"> Promotions </span>
 							</button>
-							<button class="social">
-								<span class="material-icons">people</span>
+							<button class="social display_flex cursor_pointer align-items_center">
+								<span class="material-icons opacity_6 ">people</span>
 								<span class="type"> Social </span>
 							</button>
           					</div>		                                                                         
 						<!-- layer2 -->					
-						<div class="layer3">	
+						<div class="layer3 display_flex cursor_pointer">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -144,7 +144,7 @@
 								<span class="msg3">Jun 12</span>					
 							</div>
 						</div>	   				
-						<div class="layer3">	
+						<div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -156,7 +156,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -168,7 +168,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -180,7 +180,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -192,7 +192,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -204,7 +204,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -216,7 +216,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -228,7 +228,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -240,7 +240,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -252,7 +252,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -264,7 +264,7 @@
 								<span class="msg2">Free Webinar for Cyber Security ! <span class="details">Join with Us-- As part of the initiative account</span></span>
 								<span class="msg3">Jun 12</span>					
 							</div>
-						</div><div class="layer3">	
+						</div><div class="layer3 display_flex">	
 							<div class="one">
 								 <span class="material-icons">check_box_outline_blank</span>
 							</div>
@@ -281,27 +281,26 @@
 					</div> 
 					<!-- floww-->
 				</div>  
-				<div class="clear"></div>
 				<!-- mainbody -->
 				<div class="small-sidebar">
-					<ul id="side_panel">
-          					<li>
+					<ul id="side_panel" class="liststyle_type">
+          					<li class="cursor_pointer">
           						<img src="images/calendar.png" alt="image">
  	         				</li>
-						<li>
+						<li class="cursor_pointer">
 							<img src="images/keep.png" alt="image">
           					</li>
-						<li>
+						<li class="cursor_pointer">
           						<img src="images/tasks.png" alt="image">
 	          				</li>
-						<li>
+						<li class="cursor_pointer">
 							<img src="images/contacts.png" alt="image">
           					</li>
 						<li class="small-plus">
-							<span class="material-icons">  add</span>	
+							<span class="material-icons cursor_pointer">  add</span>	
 						</li>
 						<li class="small-arrow">
-          						<span class="material-icons">keyboard_arrow_right</span>
+          						<span class="material-icons cursor_pointer">keyboard_arrow_right</span>
 						</li>        
 	          			</ul>
 				</div>	                                                                        

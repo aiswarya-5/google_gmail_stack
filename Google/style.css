@@ -3,27 +3,31 @@
 	margin: 0;
 	padding: 0;
 }
+.display_flex{
+	display:flex;
+}
+.cursor_pointer{
+	cursor: pointer;
+}
+.text-decoration_none{
+	text-decoration: none;
+}
 nav{
-	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: 18px;
 	margin-top: 13px;
 }
 nav a{
-	text-decoration: none;
 	font-size: 13px;
-	color: rgb(0,0,0, 0.87);
-	cursor: pointer;	
+	color: #222;
 	padding: 5px 6.7px;
 }
 nav .gmail{
-	cursor: pointer;
 	width: 17px;
    	padding-right: 32px;
 }
 nav .image{
-	cursor: pointer;
 	width: 17px;
    	padding-right: 63.5px;
 }
@@ -33,14 +37,12 @@ nav a:hover{
 }
 nav .apps{
 	opacity: .7;
-	cursor: pointer;
 	width: 16px;
    	padding-right: 24px;
 }
 nav .sign{
 	width: 32px;
 	border-radius: 100px;
-	cursor: pointer;
 }
 .upper_section .googlelogo{
 	margin-top: 13px;
@@ -65,7 +67,7 @@ nav .sign{
 	 outline:none;
 } 
 .searchbar .input:hover{
-	box-shadow: 0 0 11px rgba(33,33,33,.19); 
+	box-shadow: 0 0 11px #21212130; 
 }
 .searchbar .search{
 	width: 21px;
@@ -87,7 +89,6 @@ nav .sign{
 	color: #3c4043;
 	font-size:14px;
 	margin-top: 30px;
-	cursor: pointer;
 	border-radius: 4px;
 	background: #f8f9fa;
 	height: 36px;
@@ -104,7 +105,6 @@ nav .sign{
 }
 .language a{
 	word-spacing: 5px;
-	text-decoration: none;
 	color: #1a0dab;
 }
 
@@ -112,7 +112,6 @@ nav .sign{
 	text-decoration: underline;
 }
 footer{
-	position: relative;
 	margin-top: 193px;
 	background: #F5F5F5;
 }
@@ -126,7 +125,6 @@ footer h4 {
 }
 footer a{
 	display: inline-block;
-	text-decoration: none;
 	color: #70757a;
 	padding: 12px 11px;
 	font-size: 14px;
@@ -137,6 +135,5 @@ footer a:hover{
 .last{	
 	padding: 2.5px 20px;
 	border: .5px solid #dadce0;
-	display: flex;
     	justify-content: space-between;
 }
