@@ -114,10 +114,6 @@
     	color: #d93025;
     	font-size: 21px;
 }
-.sidebox1 li:hover, .sidebox2 li:hover{
-	background-color: #F5F5F5;
-	border-radius: 0 50px 50px 0;	
-}
 .sidebox1 .redish a{
 	color: #d93025;
     	font-weight: bold;
@@ -337,8 +333,7 @@
 .small-sidebar{	       
     	margin: 4px 0 0 22px;	
 }
-
-.liststyle_type{
+ul li{
 	list-style-type: none;
 }
 .small-sidebar li{

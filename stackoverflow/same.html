@@ -11,15 +11,15 @@
         <div class="container">
             <div class="header display_flex">
                 <div class="leftpart display_flex">
-                    <img src="images/stack.jpg" alt="image">
-                    <span class="product font_size">Products</span>				
+                    <img src="images/stack.jpg" class="cursor_pointer" alt="image">
+                    <span class="product font_size cursor_pointer">Products</span>				
                 </div>
                 <div class="middlepart">
                     <img src="images/search.jpg" alt="image">
                     <input type="text" placeholder="user:22656">					
                 </div>
                 <div class="rightpart display_flex">
-                    <div class="btn display_flex">
+                    <div class="btn display_flex cursor_pointer">
                         <div><img src="images/aiswarya.png" alt="image"></div>
                         <div class="data">1</div>
                         <a class="circle" href="#"></a>
@@ -27,22 +27,22 @@
                     </div>
                 </div>
                 <div class="last1">
-                    <button title="Recent inbox message">
+                    <button title="Recent inbox message" class="cursor_pointer">
                     <img src="images/index.jpg" alt="image">
                     </button>
                 </div>
                 <div class="last2">
-                    <button title="You have new achievement">
+                    <button title="You have new achievement" class="cursor_pointer">
                     <img src="images/trophy.jpg" alt="image">
                     </button>
                 </div>
                 <div class="last3">
-                    <button title="Help center and other resources">
+                    <button title="Help center and other resources" class="cursor_pointer">
                     <img src="images/help.jpg" alt="image">
                     </button>
                 </div>
                 <div class="last4" title="A list of all 180 stack exchange sites">
-                    <button>
+                    <button class="cursor_pointer">
                     <img src="images/list.jpg" alt="image">
                     </button>		
                 </div>
@@ -50,16 +50,16 @@
             <!--header tag close-->
             <div class="mainbar display_flex">
                 <div class="sidebar">
-                    <p class="home font_size">Home</p>
+                    <p class="home font_size cursor_pointer">Home</p>
                     <p class="public">PUBLIC</p>
-                    <div class="options">
-                        <ul class="list-style-type">
+                    <div class="options opt">
+                        <ul>
                             <li class="one">
-                                <span class="material-icons"> public </span>
-                                <a href="#" class="text_decoration_none font_size">Questions</a>
+                                <span class="material-icons sidebar_hover"> public </span>
+                                <a href="#" class="text_decoration_none font_size sidebar_hover">Questions</a>
                             </li>
                             <li class="two">
-                                <a href="#" class="text_decoration_none font_size">Tags</a>
+                                <a href="#" class="text_decoration_none font_size sidebar_hover">Tags</a>
                             </li>
                             <li class="three">
                                 <a href="#" class="text_decoration_none font_size">Users</a>
@@ -69,14 +69,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="option">
-                        <ul class="list-style-type">
+                    <div class="option opt">
+                        <ul>
                             <li class="collect">
                                 <a href="#">COLLECTIVES</a>
                                 <span class="material-icons"> info </span>
                             </li>
                             <li class="expo">
-                                <img src="images/star.jpg" alt="image">
+                                <img src="images/star.jpg" alt="image" class="cursor_pointer">
                                 <a href="#" class="font_size">Explore Collectives</a>
                             </li>
                             <li class="team">
@@ -84,7 +84,7 @@
                                 <span class="material-icons"> info </span>
                             </li>
                             <li class="free">
-                                <img src="images/free.jpg" alt="image">
+                                <img src="images/free.jpg" alt="image" class="cursor_pointer">
                                 <a href="#" class="font_size">Create free Team</a>
                             </li>
                         </ul>
@@ -98,22 +98,23 @@
                                 <img src="images/john.jpeg" class="dp" alt="image"> 
                             </div>
                             <div class="p-right display_inline-block">
-                                <ul class="list-style-type">
+                                <ul>
                                     <li class="name">
-                                        Jon Skeet   <button class="profile">Profiles<span class="material-icons">arrow_drop_down</span></button>
+                                        Jon Skeet   
+						<button class="profile cursor_pointer">Profiles<span class="material-icons">arrow_drop_down</span></button>
                                     </li>
                                     <li class="day font_size">
-                                        <span class="material-icons"> cake </span>
-                                        <span class="data1"> Member for 13 years, 9 months </span>
-                                        <span class="material-icons"> schedule </span>
-                                        <span class="data4"> Last seen this week </span>
+                                        <span class="material-icons cursor_default"> cake </span>
+                                        <span class="data1 dd"> Member for 13 years, 9 months </span>
+                                        <span class="material-icons cursor_default"> schedule </span>
+                                        <span class="data4 dd"> Last seen this week </span>
                                     </li>
                                     <li class="data display_flex">
-                                        <img src="images/twiter.jpg" alt="image" class="twiter data_padding">
-                                        <img src="images/git.jpg" class="git data_padding" alt="image">
-                                        <img src="images/pin.jpg" class="pin data_padding" alt="image">
-                                        <span class="data2 font_size data_padding">csharpindepth.com</span>
-                                        <span class="material-icons"> place </span>
+                                        <img src="images/twiter.jpg" alt="image" class="twiter data_padding cursor_pointer">
+                                        <img src="images/git.jpg" class="git data_padding cursor_pointer" alt="image">
+                                        <img src="images/pin.jpg" class="pin data_padding cursor_pointer" alt="image">
+                                        <span class="data2 font_size data_padding cursor_pointer">csharpindepth.com</span>
+                                        <span class="material-icons cursor_default"> place </span>
                                         <span class="data3 font_size data_padding"> Reading, United Kingdom </span>
                                     </li>
                                 </ul>
@@ -151,7 +152,7 @@
                                         <tr class="stat-trophy">
                                             <td colspan=2>
                                                 <img src="images/btrophy.jpg" alt="image">
-                                                <p id="over" class="status_value font_size">top <b>0.01% </b>overall</p>
+                                                <p id="over" class="status_value font_size cursor_pointer">top <b>0.01% </b>overall</p>
                                             </td>
                                         </tr>
                                     </table>
@@ -163,8 +164,8 @@
                                 <span class="title">Collectives</span>
                                 <table>
                                     <tr>
-                                        <td rowspan=2 class="cloud"><img src="images/cloud.jpg" alt="image"></td>
-                                        <td class="google">Google Cloud</td>
+                                        <td rowspan=2 class="cloud cursor_pointer"><img src="images/cloud.jpg" alt="image"></td>
+                                        <td class="google cursor_pointer">Google Cloud</td>
                                     </tr>
                                     <tr>
                                         <td class="year google">2021 <img src="images/dot.png" alt="image">Employee</td>
@@ -197,7 +198,7 @@
                     <div class="layer3 display_flex">
                         <div class="community">
                             <span class="communitytitle">Communities</span>
-                            <span class="view font_size display_inlineflex">View all
+                            <span class="view font_size display_inlineflex cursor_pointer">View all
                             <img src="images/new.jpg" alt="image"></span>		
                             <div class="communitybox">
                                 <table class="font_size">
@@ -237,7 +238,7 @@
                                 <table class="table1">
                                     <tr>
                                         <td rowspan="2"><img src="images/gold.jpg" id="goldimg" alt="image"></td>
-                                        <td id="num-g">824</td>
+                                        <td id="num-g" class="ng">824</td>
                                     </tr>
                                     <tr>
                                         <td class="bd"> gold badges</td>
@@ -245,15 +246,15 @@
                                 </table>
                                 <table class="table2">
                                     <tr>
-                                        <td class="b1"><span class="dot font_size">●</span> <span>delegates</span></td>
+                                        <td class="b1 bb cursor_pointer"><span class="dot font_size">●</span> <span>delegates</span></td>
                                         <td class="bd1">Apr 6, 2011</td>
                                     </tr>
                                     <tr>
-                                        <td class="b1"><span class="dot font_size">●</span> <span>inheritance</span></td>
+                                        <td class="b1 bb cursor_pointer"><span class="dot font_size">●</span> <span>inheritance</span></td>
                                         <td class="bd1">Nov 12, 2011</td>
                                     </tr>
                                     <tr>
-                                        <td class="b1"><span class="dot font_size">●</span> <span>casting</span></td>
+                                        <td class="b1 bb cursor_pointer"><span class="dot font_size">●</span> <span>casting</span></td>
                                         <td class="bd1">Mar 1, 2012</td>
                                     </tr>
                                 </table>
@@ -266,7 +267,7 @@
                                 <table class="table1">
                                     <tr>
                                         <td rowspan="2"><img src="images/silver.jpg" id="silverimg" alt="image"></td>
-                                        <td id="num-s">8,939</td>
+                                        <td id="num-s" class="ng">8,939</td>
                                     </tr>
                                     <tr>
                                         <td class="bd"> silver badges</td>
@@ -274,15 +275,15 @@
                                 </table>
                                 <table class="table2">
                                     <tr>
-                                        <td class="b2"><span class="silverdot font_size">●</span> <span>expression</span></td>
+                                        <td class="b2 bb cursor_pointer"><span class="silverdot font_size">●</span> <span>expression</span></td>
                                         <td class="bd1">Mar 12, 2020</td>
                                     </tr>
                                     <tr>
-                                        <td class="b2"><span class="silverdot font_size">●</span> <span>conversion</span></td>
+                                        <td class="b2 bb cursor_pointer"><span class="silverdot font_size">●</span> <span>conversion</span></td>
                                         <td class="bd1">Nov 4, 2013</td>
                                     </tr>
                                     <tr>
-                                        <td class="b2"><span class="silverdot font_size">●</span> <span>bytearray</span></td>
+                                        <td class="b2 bb cursor_pointer"><span class="silverdot font_size">●</span> <span>bytearray</span></td>
                                         <td class="bd1">Jun 5, 2013</td>
                                     </tr>
                                 </table>
@@ -291,12 +292,12 @@
                         </div>
                         <!--badge-->
                         <div class="badge">
-                            <span class="bronze font_size"> View all badges</span>
+                            <span class="bronze font_size cursor_pointer"> View all badges</span>
                             <div class="bronzedata font_size">
                                 <table class="table1">
                                     <tr>
                                         <td rowspan="2"><img src="images/bronze.jpg" id="bronzeimg" alt="image"></td>
-                                        <td id="num-b">9,060</td>
+                                        <td id="num-b" class="ng">9,060</td>
                                     </tr>
                                     <tr>
                                         <td class="bd"> bronze badges</td>
@@ -304,15 +305,15 @@
                                 </table>
                                 <table class="table2">
                                     <tr>
-                                        <td class="b3"><span class="bronzedot font_size">●</span> <span>generic</span></td>
+                                        <td class="b3 bb cursor_pointer"><span class="bronzedot font_size">●</span> <span>generic</span></td>
                                         <td class="bd1">Sep 16, 2011</td>
                                     </tr>
                                     <tr>
-                                        <td class="b3"><span class="bronzedot font_size">●</span> <span>anonymous</span></td>
+                                        <td class="b3 bb cursor_pointer"><span class="bronzedot font_size">●</span> <span>anonymous</span></td>
                                         <td class="bd1">Sep 23, 2012</td>
                                     </tr>
                                     <tr>
-                                        <td class="b3"><span class="bronzedot font_size">●</span> <span>keyword</span></td>
+                                        <td class="b3 bb cursor_pointer"><span class="bronzedot font_size">●</span> <span>keyword</span></td>
                                         <td class="bd1">Mar 5, 2013</td>
                                     </tr>
                                 </table>
@@ -325,7 +326,7 @@
                     <div class="tag-container">
                         <div class="tags display_inline-block">
                             <span class="tagtitle">Top tags</span>
-                            <span class="tagview font_size">View all tags</span>
+                            <span class="tagview font_size cursor_pointer">View all tags</span>
                             <div class="clear"></div>
                             <div class="tagtable">
                                 <table>
@@ -333,66 +334,66 @@
                                         <td><button>c#</button> 
                                             <span class="tdot font_size">●</span>
                                         </td>
-                                        <td class="tagno1">254,904 </td>
+                                        <td class="tagno1 tt">254,904 </td>
                                         <td class="tagdata font_size"> score</td>
-                                        <td class="tagno"> 19,804 </td>
+                                        <td class="tagno tt"> 19,804 </td>
                                         <td class="tagdata font_size"> posts</td>
-                                        <td class="tagno"> 56 </td>
+                                        <td class="tagno tt"> 56 </td>
                                         <td class="tagdata font_size"> posts %</td>
                                     </tr>
                                     <tr>
                                         <td><button>java</button>
                                             <span class="tdot font_size">●</span>
                                         </td>
-                                        <td class="tagno1">153,780 </td>
+                                        <td class="tagno1 tt">153,780 </td>
                                         <td class="tagdata font_size"> score</td>
-                                        <td class="tagno">10,565 </td>
+                                        <td class="tagno tt">10,565 </td>
                                         <td class="tagdata font_size"> posts</td>
-                                        <td class="tagno">30</td>
+                                        <td class="tagno tt">30</td>
                                         <td class="tagdata font_size"> posts %</td>
                                     </tr>
                                     <tr>
                                         <td><button> .net </button>
                                             <span class="tdot font_size">●</span>
                                         </td>
-                                        <td class="tagno1">  88,364 </td>
+                                        <td class="tagno1 tt">  88,364 </td>
                                         <td class="tagdata font_size"> score</td>
-                                        <td class="tagno"> 5,606 </td>
+                                        <td class="tagno tt"> 5,606 </td>
                                         <td class="tagdata font_size"> posts</td>
-                                        <td class="tagno"> 16 </td>
+                                        <td class="tagno tt"> 16 </td>
                                         <td class="tagdata font_size"> posts %</td>
                                     </tr>
                                     <tr>
                                         <td><button> linq </button>
                                             <span class="tdot font_size">●</span>
                                         </td>
-                                        <td class="tagno1"> 36,868 </td>
+                                        <td class="tagno1 tt"> 36,868 </td>
                                         <td class="tagdata font_size"> score</td>
-                                        <td class="tagno"> 2,992 </td>
+                                        <td class="tagno tt"> 2,992 </td>
                                         <td class="tagdata font_size"> posts</td>
-                                        <td class="tagno"> 8 </td>
+                                        <td class="tagno tt"> 8 </td>
                                         <td class="tagdata font_size"> posts %</td>
                                     </tr>
                                     <tr>
                                         <td><button> string </button>
                                             <span class="tdot font_size">●</span>
                                         </td>
-                                        <td class="tagno1"> 23,875 </td>
+                                        <td class="tagno1 tt"> 23,875 </td>
                                         <td class="tagdata font_size"> score</td>
-                                        <td class="tagno"> 1,007 </td>
+                                        <td class="tagno tt"> 1,007 </td>
                                         <td class="tagdata font_size"> posts</td>
-                                        <td class="tagno"> 3 </td>
+                                        <td class="tagno tt"> 3 </td>
                                         <td class="tagdata font_size"> posts %</td>
                                     </tr>
                                     <tr>
                                         <td><button> generics </button>
                                             <span class="tdot font_size">●</span>
                                         </td>
-                                        <td class="tagno1"> 21,437 </td>
+                                        <td class="tagno1 tt"> 21,437 </td>
                                         <td class="tagdata font_size"> score</td>
-                                        <td class="tagno"> 1,282 </td>
+                                        <td class="tagno tt"> 1,282 </td>
                                         <td class="tagdata font_size"> posts</td>
-                                        <td class="tagno"> 4 </td>
+                                        <td class="tagno tt"> 4 </td>
                                         <td class="tagdata font_size"> posts %</td>
                                     </tr>
                                 </table>
@@ -408,14 +409,14 @@
                         </div>
                         <div class="post">
                             <div class="postbutn1 display_inlineflex">
-                                <button class="r1">All</button>
-                                <button class="s">Questions</button>
-                                <button class="s">Answers</button>
-                                <button class="r2">Articles</button>
+                                <button class="r1 cursor_pointer">All</button>
+                                <button class="s cursor_pointer">Questions</button>
+                                <button class="s cursor_pointer">Answers</button>
+                                <button class="r2 s cursor_pointer">Articles</button>
                             </div>
                             <div class="postbutn2 display_inlineflex">
-                                <button class="r1">Score</button>
-                                <button class="r2">Newest</button>	
+                                <button class="r1 cursor_pointer">Score</button>
+                                <button class="r2 s cursor_pointer">Newest</button>	
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -424,61 +425,61 @@
                                 <tr>
                                     <td><img src="images/green.jpg" alt="image"></td>
                                     <td><button>11622</button></td>
-                                    <td class="question">Why is subtracting these two times (in 1927) giving a strange result?</td>
+                                    <td class="question question_hover cursor_pointer">Why is subtracting these two times (in 1927) giving a strange result?</td>
                                     <td class="questiondate font_size">Jul 27, 2011</td>
                                 </tr>
                                 <tr>
                                     <td><img src="images/green.jpg" alt="image"></td>
                                     <td><button>4621</button></td>
-                                    <td class="question">Why is char[] preferred over String for passwords?</td>
+                                    <td class="question question_hover cursor_pointer">Why is char[] preferred over String for passwords?</td>
                                     <td class="questiondate font_size">Jan 16, 2012</td>
                                 </tr>
                                 <tr>
                                     <td><img src="images/gray.jpg" alt="image"></td>
                                     <td><button id="different">3717</button></td>
-                                    <td class="question">What is the difference between String and string in C#</td>
+                                    <td class="question question_hover cursor_pointer">What is the difference between String and string in C#</td>
                                     <td class="questiondate font_size">Oct 18, 2008</td>
                                 </tr>
                                 <tr>
                                     <td><img src="images/green.jpg" alt="image"></td>
                                     <td><button>3279</button></td>
-                                    <td class="question">How do I call one constructor from another in Java</td>
+                                    <td class="question question_hover cursor_pointer">How do I call one constructor from another in Java</td>
                                     <td class="questiondate font_size">Nov 12, 2008</td>
                                 </tr>
                                 <tr>
                                     <td><img src="images/green.jpg" alt="image"></td>
                                     <td><button>3097</button></td>
-                                    <td class="question">What are the correct version numbers for C#?</td>
+                                    <td class="question question_hover cursor_pointer">What are the correct version numbers for C#?</td>
                                     <td class="questiondate font_size">Oct 29, 2008</td>
                                 </tr>
                                 <tr>
                                     <td><img src="images/greenq.jpg" alt="image"></td>
                                     <td><button>2789</button></td>
-                                    <td class="question">What are the correct version numbers for C#?</td>
+                                    <td class="question question_hover cursor_pointer">What are the correct version numbers for C#?</td>
                                     <td class="questiondate font_size">Oct 29, 2008</td>
                                 </tr>
                                 <tr>
                                     <td><img src="images/green.jpg" alt="image"></td>
                                     <td><button>2644</button></td>
-                                    <td class="question">How to break out of nested loops in java?</td>
+                                    <td class="question question_hover cursor_pointer">How to break out of nested loops in java?</td>
                                     <td class="questiondate font_size">May 20, 2009</td>
                                 </tr>
                                 <tr>
                                     <td><img src="images/green.jpg" alt="image"></td>
                                     <td><button>2496</button></td>
-                                    <td class="question">What is a serialVersionUID and why should I use it?</td>
+                                    <td class="question question_hover cursor_pointer">What is a serialVersionUID and why should I use it?</td>
                                     <td class="questiondate font_size">Nov 12, 2008</td>
                                 </tr>
                                 <tr>
                                     <td><img src="images/green.jpg" alt="image"></td>
                                     <td><button>2482</button></td>
-                                    <td class="question">Difference between decimal, float and double in .NET?</td>
+                                    <td class="question question_hover cursor_pointer">Difference between decimal, float and double in .NET?</td>
                                     <td class="questiondate font_size">Mar 6, 2009</td>
                                 </tr>
                                 <tr>
                                     <td><img src="images/green.jpg" alt="image"></td>
                                     <td><button>1961</button></td>
-                                    <td class="question">Group bt LINQ</td>
+                                    <td class="question question_hover cursor_pointer">Group bt LINQ</td>
                                     <td class="questiondate font_size">Sep 6, 2011</td>
                                 </tr>
                             </table>
@@ -498,27 +499,27 @@
                                     <tr>
                                         <td><img src="images/stackg.jpg" class="stackg" alt="image"></td>
                                         <td><button class="different">923</button></td>
-                                        <td class="questions">Congratulations for reaching a million, Gordon Linoff!</td>
+                                        <td class="questions question_hover cursor_pointer">Congratulations for reaching a million, Gordon Linoff!</td>
                                     </tr>
                                     <tr>
                                         <td><img src="images/stackg.jpg" class="stackg" alt="image"></td>
                                         <td><button class="different">803</button></td>
-                                        <td class="question">Stack Overflow question checklist</td>
+                                        <td class="question question_hover cursor_pointer">Stack Overflow question checklist</td>
                                     </tr>
                                     <tr>
                                         <td><img src="images/stackg.jpg" class="stackg" alt="image"></td>
                                         <td><button class="different">461</button></td>
-                                        <td class="question">Are we being "elitist"? Is there something wrong with that?</td>
+                                        <td class="question question_hover cursor_pointer">Are we being "elitist"? Is there something wrong with that?</td>
                                     </tr>
                                     <tr>
                                         <td><img src="images/stackg.jpg" class="stackg" alt="image"></td>
                                         <td><button class="different">204</button></td>
-                                        <td class="question">What should I do about a user that I'm trying to help and is calling me stupid</td>
+                                        <td class="question question_hover cursor_pointer">What should I do about a user that I'm trying to help and is calling me stupid</td>
                                     </tr>
                                     <tr>
                                         <td><img src="images/stackg.jpg" class="stackg" alt="image"></td>
                                         <td><button class="different">166</button></td>
-                                        <td class="question">Who's the person with more answers than Jon Skeet? When will they catch him in rep terms? </td>
+                                        <td class="question question_hover cursor_pointer">Who's the person with more answers than Jon Skeet? When will they catch him in rep terms? </td>
                                     </tr>
                                 </table>
                             </div>
@@ -528,34 +529,34 @@
                     <div class="net-container">
                         <div class="net">
                             <span class="nettitle">Top network posts</span>
-                            <span class="netview font_size">View all network post</span>					
+                            <span class="netview font_size cursor_pointer">View all network post</span>					
                             <div class="clear"></div>
                             <div class="nettable">
                                 <table>
                                     <tr>
                                         <td><img src="images/network1.jpg" class="networks" alt="image"></td>
                                         <td><button class="different">865</button></td>
-                                        <td class="questions">Allow an edit to notify downvoters: "I think think I've fixed the issues now - please check "</td>
+                                        <td class="questions question_hover cursor_pointer">Allow an edit to notify downvoters: "I think think I've fixed the issues now - please check "</td>
                                     </tr>
                                     <tr>
                                         <td><img src="images/network1.jpg" class="networks" alt="image"></td>
                                         <td><button class="different">821</button></td>
-                                        <td class="questions">Jon Skeet Facts</td>
+                                        <td class="questions question_hover cursor_pointer">Jon Skeet Facts</td>
                                     </tr>
                                     <tr>
                                         <td><img src="images/network1.jpg" class="networks" alt="image"></td>
                                         <td><button class="different">297</button></td>
-                                        <td class="questions">Should 'Hi', 'thanks', taglines, and salutations be removed from posts?</td>
+                                        <td class="questions question_hover cursor_pointer">Should 'Hi', 'thanks', taglines, and salutations be removed from posts?</td>
                                     </tr>
                                     <tr>
                                         <td><img src="images/network2.jpg" class="network" alt="image"></td>
                                         <td><button class="different">264</button></td>
-                                        <td class="questions">Shell command to monitor changes in a file</td>
+                                        <td class="questions question_hover cursor_pointer">Shell command to monitor changes in a file</td>
                                     </tr>
                                     <tr>
                                         <td><img src="images/network1.jpg" class="networks" alt="image"></td>
                                         <td><button class="different">181</button></td>
-                                        <td class="questions">Please show us when we lose an accepted answer</td>
+                                        <td class="questions question_hover cursor_pointer">Please show us when we lose an accepted answer</td>
                                     </tr>
                                 </table>
                             </div>
@@ -572,46 +573,46 @@
                         <img src="images/fstack.jpg" alt="image">
                     </div>
                     <div class="foot-column">
-                        <ul class="list-style-type">
-                            <li class="head">STACK OVERFLOW</li>
-                            <li class="subheadfirst subhead_color font_size">Questions</li>
-                            <li class="subhead subhead_color font_size">Help</li>
+                        <ul>
+                            <li class="head cursor_pointer">STACK OVERFLOW</li>
+                            <li class="subheadfirst subhead_color font_size foot_hover cursor_pointer">Questions</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Help</li>
                         </ul>
                     </div>
                     <div class="foot-column2">
-                        <ul class="list-style-type">
-                            <li class="head font_size">PRODUCTS</li>
-                            <li class="subheadfirst subhead_color font_size">Teams</li>
-                            <li class="subhead subhead_color font_size">Advertising</li>
-                            <li class="subhead subhead_color font_size">Collectives</li>
-                            <li class="subheadl extradata subhead_color font_size">Talent</li>
+                        <ul>
+                            <li class="head font_size cursor_pointer">PRODUCTS</li>
+                            <li class="subheadfirst subhead_color font_size foot_hover cursor_pointer">Teams</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Advertising</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Collectives</li>
+                            <li class="subheadl extradata subhead_color font_size foot_hover cursor_pointer">Talent</li>
                         </ul>
                     </div>
                     <div class="foot-column2">
-                        <ul class="list-style-type">
-                            <li class="head font_size">COMPANY</li>
-                            <li class="subheadfirst subhead_color font_size">About</li>
-                            <li class="subhead subhead_color font_size">Press</li>
-                            <li class="subhead subhead_color font_size">Work Here</li>
-                            <li class="subheadl extradata subhead_color font_size">Legal</li>
-                            <li class="subhead subhead_color font_size">Privacy Policy</li>
-                            <li class="subhead-terms extradata subhead_color font_size">Terms of Service</li>
-                            <li class="subheadfirst subhead_color font_size">Contact Us</li>
-                            <li class="subhead subhead_color font_size">Cookie Settings</li>
-                            <li class="subhead subhead_color font_size">Cookie Policy</li>
+                        <ul>
+                            <li class="head font_size cursor_pointer">COMPANY</li>
+                            <li class="subheadfirst subhead_color font_size foot_hover cursor_pointer">About</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Press</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Work Here</li>
+                            <li class="subheadl extradata subhead_color font_size foot_hover cursor_pointer">Legal</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Privacy Policy</li>
+                            <li class="subhead-terms extradata subhead_color font_size foot_hover cursor_pointer">Terms of Service</li>
+                            <li class="subheadfirst subhead_color font_size foot_hover cursor_pointer">Contact Us</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Cookie Settings</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Cookie Policy</li>
                         </ul>
                     </div>
                     <div class="foot-column2">
-                        <ul class="list-style-type">
-                            <li class="head font_size">STACK EXCHANGE NETWORK</li>
-                            <li class="subheadfirst subhead_color font_size">Technology</li>
-                            <li class="subhead subhead_color font_size">Culture & recreation</li>
-                            <li class="subhead subhead_color font_size">Life & arts</li>
-                            <li class="subheadl extradata subhead_color font_size">Science</li>
-                            <li class="subhead subhead_color font_size">Professional</li>
-                            <li class="subhead-bus extradata subhead_color font_size">Business</li>
-                            <li class="subhead subhead_color font_size">API</li>
-                            <li class="subhead-data extradata subhead_color font_size">Data</li>
+                        <ul>
+                            <li class="head font_size cursor_pointer">STACK EXCHANGE NETWORK</li>
+                            <li class="subheadfirst subhead_color font_size foot_hover cursor_pointer">Technology</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Culture & recreation</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Life & arts</li>
+                            <li class="subheadl extradata subhead_color font_size foot_hover cursor_pointer">Science</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">Professional</li>
+                            <li class="subhead-bus extradata subhead_color font_size foot_hover cursor_pointer">Business</li>
+                            <li class="subhead subhead_color font_size foot_hover cursor_pointer">API</li>
+                            <li class="subhead-data extradata subhead_color font_size foot_hover cursor_pointer">Data</li>
                         </ul>
                     </div>
                     <div class="foot-column3">
